@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a solution to the FAQ accordion card challenge on Frontend Mentor."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./static/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <link rel="stylesheet" href="./static/css/style.css" />
+
+    <script src="./static/js/script.js" defer></script>
+  </head>
+  <body>
+    <main class="main">
+      <section class="faq-card">
+        <img
+          src="./static/images/illustration-box-desktop.svg"
+          alt="box illustration"
+          class="faq-card__box-illustration"
+        />
+
+        <div class="faq-card__media">
+          <img
+            src="./static/images/illustration-woman-online-mobile.svg"
+            alt="woman online illustration"
+          />
+          <img
+            src="./static/images/illustration-woman-online-desktop.svg"
+            alt="woman online illustration"
+          />
+        </div>
+
+        <div class="faq-card__content">
+          <h1>FAQ</h1>
+          <ul role="list" class="accordion">
+            <li class="accordion__item">
+              <button class="accordion__header">
+                How many team members can I invite?
+              </button>
+              <div class="accordion__content">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </div>
+            </li>
+            <li class="accordion__item">
+              <button class="accordion__header">
+                What is the maximum file upload size?
+              </button>
+              <div class="accordion__content">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </div>
+            </li>
+            <li class="accordion__item">
+              <button class="accordion__header">
+                How do I reset my password?
+              </button>
+              <div class="accordion__content">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </div>
+            </li>
+            <li class="accordion__item">
+              <button class="accordion__header">
+                Can I cancel my subscription?
+              </button>
+              <div class="accordion__content">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </div>
+            </li>
+            <li class="accordion__item">
+              <button class="accordion__header">
+                Do you provide additional support?
+              </button>
+              <div class="accordion__content">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/boonyarit-iamsaard" target="_blank">
+        Boonyarit Iamsa-ard</a
+      >.
+    </footer>
+  </body>
+</html>
