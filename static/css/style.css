@@ -138,6 +138,10 @@ svg {
   text-align: center;
 }
 
+.accordion {
+  list-style: none;
+}
+
 .accordion__item {
   padding-block: 1rem;
   border-bottom: 1px solid var(--clr-light-blue);
